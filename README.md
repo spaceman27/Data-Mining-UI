@@ -23,6 +23,12 @@ e2e/                         end-to-end tests
 src/                         project source code
 |- app/                      app components
 |  |- core/                  core module (singleton services and single-use components)
+|  |- home/
+|  |-     /*.html            html template
+|  |-     /*.scss            css style
+|  |-     /*.component.ts    controller code for model binding
+|  |-     /*.model.ts        data model: byCountry, byHashTag
+|  |-     /*.service.ts      api call to rest service
 |  |- shared/                shared module  (common components, directives and pipes)
 |  |- app.component.*        app root component (shell)
 |  |- app.module.ts          app root module definition
