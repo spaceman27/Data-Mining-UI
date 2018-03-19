@@ -2,9 +2,13 @@ import {Injectable} from '@angular/core';
 // import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Http, Response, RequestOptions, Headers } from '@angular/http';
 
-import {Observable} from 'rxjs/Observable';
+import {Observable} from 'rxjs';
+
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
+export class ErrorModel {
+  error: string;
+}
 @Injectable()
 export class HomeService {
   constructor(private http: Http) {
