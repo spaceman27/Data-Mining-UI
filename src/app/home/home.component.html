@@ -1,0 +1,25 @@
+<div class="container data-mining flex flex-row justify-around">
+    <div class="by-country">
+        <div class="title">BY COUNTRY 
+             <span *ngIf="isLoadingCountry"><i class="spinner fas fa-spinner"></i></span>
+        </div>
+        <div>
+            <div class="by-item" *ngFor="let item of byCountry">
+                <div class="col-w dib">{{item.place_country}}</div>
+                <div class="col-w2 dib">{{item.place_country_code}}</div>
+                <div class="col-w3 dib">{{item.total}}</div>
+            </div>
+        </div>
+    </div>
+    <div class="by-hashtag">
+        <div class="title">BY HASHTAG
+            <span *ngIf="isLoadingHashTag"><i class="spinner fas fa-spinner"></i></span>
+        </div>
+        <div>
+           <div class="by-item" *ngFor="let item of byHashtag">
+                <div class="col-w dib">{{item.hashtag}}</div>
+                <div class="col-w3 dib">{{item.total}}</div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+.by-item{
+    font-size: 1.4em;
+}
+.title{
+    font-size: 2em;
+    font-weight: bold;
+}
+.v-line {
+    border-left: 6px solid green;
+    height: 35em;
+}
+.col-w {
+    min-width: 9em;
+}
+.col-w2 {
+    min-width: 5em;
+}
+.col-w3 {
+    min-width: 1em;
+}
+.spinner {
+		animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
