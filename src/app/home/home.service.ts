@@ -18,7 +18,7 @@ export class HomeService {
   const option = new RequestOptions({headers: headers});
   return option;
 }
-  getGateByCountry(): Observable<any> {   
+  getByCountry(): Observable<any> {   
       const opt = this.getUrlRequestOption(); 
       opt.url = 'http://085cc1f3.ngrok.io/totalbycountry';
     return this.http.get(opt.url, opt).map((res: Response) => {
@@ -26,7 +26,7 @@ export class HomeService {
              });
   }
 
-  getGateByHashTag(): Observable<any> { 
+  getByHashTag(): Observable<any> { 
       const opt = this.getUrlRequestOption(); 
       opt.url = 'http://085cc1f3.ngrok.io/tophashtag/10';   
     return this.http.get(opt.url).map((res: Response) => {
