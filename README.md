@@ -1,6 +1,7 @@
 # Data Mining UI
 
 Angular 5: Data Mining Demonstration
+Consume data from rest api, REFRESH DATA EVERY 30 SECONDS (configurable)
 
 # Getting started
 
