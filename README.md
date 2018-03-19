@@ -1,13 +1,6 @@
-# Angular Tesla UI
+# Data Mining UI
 
-Angular 5 Project: Implementation of PSD collections
-Easy to reuse anywhere in your project
-
-HOME PAGE
-https://spaceman27.github.io/TeslaUI/dist/
-
-DEPLOY
-ng build --aot --prod --base-href /TeslaUI/dist --deploy-url dist
+Angular 5: Data Mining Demonstration
 
 # Getting started
 
