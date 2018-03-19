@@ -8,7 +8,8 @@ Consume data from rest api, REFRESH DATA EVERY 30 SECONDS (configurable)
 
 1. Go to project folder and install dependencies:
  ```sh
- npm install
+ npm install -g @angular/cli
+ npm install 
  ```
 
 2. Launch development server, and open `localhost:4200` in your browser:
